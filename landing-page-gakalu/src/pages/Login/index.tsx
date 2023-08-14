@@ -4,7 +4,7 @@ import { HomeDiv, LoginButton, LoginDiv, LoginTitle, LowerLogo, SignupText, Sign
 import upperLogo from '../../assets/Home/LogoGakalu.png';
 // import lowerLogo from '../../assets/Home/LogoGakalu.png';
 
-export default function Home() {
+export default function Login() {
     return (
         <HomeDiv>
             <UpperLogo src={upperLogo}/>
