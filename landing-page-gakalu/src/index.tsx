@@ -4,6 +4,9 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Login from "../src/pages/Login"
 import Signup from "../src/pages/Signup"
+import Home from "../src/pages/Home"
+
+import Router from "./Routers"
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -11,7 +14,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {/* <Login/> */}
-    <Signup/>
+    {/* <Signup/> */}
+    <Home/>
   </React.StrictMode>
 );
 
